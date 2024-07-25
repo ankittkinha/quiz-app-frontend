@@ -1,0 +1,85 @@
+.timerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+
+}
+
+.timer{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(83, 221, 97);
+    border-radius: 50%;
+    padding: 1em;
+    color: rgb(83, 221, 97);
+}
+
+.timer1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(221, 83, 83);
+    border-radius: 50%;
+    padding: 1em;
+    color: rgb(221, 83, 83);
+}
+
+.questionContainer{
+    text-align: center;
+}
+
+.questionAndOptions{
+    display: inline-block;
+    text-align: left;
+}
+
+.optionX{
+    display: flex;
+    text-align: center;
+    margin-left: 0.5em;
+    font-size: 1.5em;
+    color: rgb(181, 203, 158);
+}
+
+.btn {
+    width: 40%;
+    margin-top: 2em;
+    font-size: 1.2rem;
+    color: white !important;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 177, 116, 0.9725140056022409) 0%, rgba(11, 121, 130, 1) 100%);
+}
+
+input[type="radio"] {
+    display: none;
+    /* position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0; */
+}
+
+.optionX label {
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.2em;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #4CAF50; /* Change this color to whatever you prefer */
+    color: white;
+}
+
+.optionX label:hover {
+    background-color: #ddd;
+}

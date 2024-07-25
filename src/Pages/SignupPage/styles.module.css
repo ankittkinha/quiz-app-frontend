@@ -1,0 +1,37 @@
+.layout {
+    border: none;
+    width: 40%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 0;
+    /* border-radius: 2%; */
+}
+
+.heading {
+    margin-top: 0;
+    font-size: 4em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+.internalLayout {
+    padding: 2em 4em 3em 4em;
+    background: rgb(245, 252, 245);
+    border-radius: 2%;
+}
+
+/* .validationMsg{
+    height: 4em;
+} */
+
+.firstInput {
+    margin-top: 3em;
+}
+
+.submitBtn {
+    border: none;
+    margin: 2em 0 1em 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 177, 116, 0.9725140056022409) 0%, rgba(11, 121, 130, 1) 100%);
+}

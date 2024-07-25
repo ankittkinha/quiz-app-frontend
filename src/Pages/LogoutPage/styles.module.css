@@ -1,0 +1,13 @@
+.mainContainer{
+    margin-top: 3em;
+}
+
+.btn {
+    width: 8em;
+    margin-top: 1em;
+    font-size: 1.4rem;
+    color: white !important;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 177, 116, 0.9725140056022409) 0%, rgba(11, 121, 130, 1) 100%);
+}

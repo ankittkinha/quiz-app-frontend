@@ -1,0 +1,30 @@
+.navBackground {
+    background-color: rgb(24, 128, 146);
+}
+
+.mainNav {
+    padding: 0;
+}
+
+.appName {
+    color: rgb(137, 82, 34);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.appName1 {
+    color: rgb(85, 186, 78);
+}
+
+.appName:hover {
+    color: rgb(137, 82, 34);
+}
+
+.btn {
+    width: 8em;
+    font-size: 1.2rem;
+    color: white !important;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 177, 116, 0.9725140056022409) 0%, rgba(11, 121, 130, 1) 100%);
+}

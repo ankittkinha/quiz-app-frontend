@@ -1,0 +1,14 @@
+.btn {
+    width: 20%;
+    margin-top: 2em;
+    font-size: 1.2rem;
+    color: white !important;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 177, 116, 0.9725140056022409) 0%, rgba(11, 121, 130, 1) 100%);
+}
+
+.mainCont{
+    margin-top: 2em;
+    color: rgb(197, 224, 222);
+}

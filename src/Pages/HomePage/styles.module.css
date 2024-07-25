@@ -1,0 +1,18 @@
+.homeContainer{
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    color: rgb(197, 224, 222);
+}
+
+.btn{
+    display: block;
+    width: 20%;
+    border: none;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(233, 224, 224);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 177, 116, 0.9725140056022409) 0%, rgba(11, 121, 130, 1) 100%);
+}
