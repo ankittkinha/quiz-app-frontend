@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import quiz from '../../quizData.js'
 import QuizComponent from '../../Components/QuizComponent'
 import FinalScoreComponent from '../../Components/FinalScoreComponent/index.jsx'
-import HeaderComponent from '../../Components/HeaderComponent/index.jsx'
 import Navbar from '../../Components/Navbar/index.jsx'
 import styles from "./styles.module.css"
 
@@ -19,7 +18,6 @@ export default function QuizPage() {
             setCurrentQuestionIndex(currentQuestionIndex + 1)
         } else {
             setQuizCompleted(true)
-            console.log("Total score: " + score)
         }
     }
 

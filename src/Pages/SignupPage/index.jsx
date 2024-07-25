@@ -41,7 +41,6 @@ export default function SignupPage() {
     })
 
     const handleFormSubmit = async (values) => {
-        console.log(values)
         localStorage.setItem("user", values.username)
         localStorage.setItem("pass", values.password)
         localStorage.setItem("token", "asdfzxcvqwer")

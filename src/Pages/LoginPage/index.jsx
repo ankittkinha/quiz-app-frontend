@@ -36,15 +36,8 @@ export default function LoginPage() {
     })
 
     const handleFormSubmit = async (values) => {
-        // console.log("values ", values)
-        console.log("Hnadle form submit running")
-        console.log(values.username)
-        console.log(values.password)
         const user = localStorage.getItem("user")
         const pass = localStorage.getItem("pass")
-        console.log("------------------")
-        console.log(user)
-        console.log(pass)
         if (values.username === user && values.password === pass) {
             localStorage.setItem("token", "asdfzxcvqwer")
             navigate("/")

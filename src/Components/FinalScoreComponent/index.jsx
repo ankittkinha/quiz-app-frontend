@@ -1,5 +1,4 @@
 import React from 'react'
-import quiz from '../../quizData'
 import styles from "./styles.module.css"
 
 export default function FinalScoreComponent({ score, setCurrentQuestionIndex, setQuizCompleted }) {

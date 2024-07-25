@@ -4,7 +4,6 @@
     margin-top: 3em;
     margin-bottom: 3em;
     padding: 0;
-    /* border-radius: 2%; */
 }
 
 .heading {
@@ -21,9 +20,6 @@
     border-radius: 2%;
 }
 
-/* .validationMsg{
-    height: 4em;
-} */
 
 .firstInput {
     margin-top: 3em;

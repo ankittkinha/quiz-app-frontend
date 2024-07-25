@@ -5,8 +5,6 @@ import { useNavigate } from 'react-router-dom'
 
 export default function LogoutPage() {
 
-  const user = localStorage.getItem("user")
-
   const navigate = useNavigate()
 
   const handleLogout = () => {

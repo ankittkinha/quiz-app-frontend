@@ -2,10 +2,9 @@ import React, { useEffect, useState } from 'react'
 import styles from "./styles.module.css"
 
 export default function QuizComponent({ question, answer, options, serialNum, handleNextQuestion, setScore, score }) {
-    //add timer of 10 seconds
     const [timer, setTimer] = useState(10)
 
-    useEffect(() => { //Until timer is zero or user press submit
+    useEffect(() => { 
         const intervalID = setInterval(() => {
             setTimer((prevTimer) => {
                 if (prevTimer > 0) {
@@ -26,7 +25,7 @@ export default function QuizComponent({ question, answer, options, serialNum, ha
 
             handleNextQuestion()
         }
-    }, [timer])
+    }, [timer, handleNextQuestion])
 
     const [selectedOption, setSelectedOption] = useState("")
 
@@ -36,19 +35,15 @@ export default function QuizComponent({ question, answer, options, serialNum, ha
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (selectedOption != "") {
+        if (selectedOption !== "") {
             if (selectedOption === answer) {
                 setScore((prevScore) => {
                     const newScore = prevScore + 2
-                    console.log("Score after update: " + newScore)
                     return newScore
                 })
             }
 
-            console.log(selectedOption)
-            // alert("You have selected this option" + selectedOption)
             handleNextQuestion()
-            console.log("Total score: " + score)
         }
     }
 
